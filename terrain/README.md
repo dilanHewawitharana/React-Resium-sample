@@ -1,4 +1,4 @@
-# Getting Started with 3D Map + terrain with recium-cecium on react component
+# Getting Started with 3D Map + terrain with resium-cesium on react component
 
 ## setup project
 
