@@ -6,6 +6,7 @@
 
 ```
 cd terrain
+npm install
 yarn add @craco/craco craco-cesium cesium resium
 yarn add craco-plugin-react-hot-reload react-hot-loader @hot-loader/react-dom
 ```
