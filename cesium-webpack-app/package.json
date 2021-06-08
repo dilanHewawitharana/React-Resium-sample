@@ -1,0 +1,23 @@
+{
+  "name": "cesium-webpack-app",
+  "version": "1.0.0",
+  "description": "cesium self study",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
+    "start": "node_modules/.bin/webpack serve --config webpack.config.js --open"
+  },
+  "author": "Dilan Sarith",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-server": "^0.1.2"
+  }
+}
