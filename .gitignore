@@ -20,3 +20,6 @@ map_3d/node_modules
 terrain/node_modules
 polyline/node_modules
 cesium-webpack-app/node_modules
+cesium-webpack-app/dist
+cesium-webpack-app/package-lock.json
+
