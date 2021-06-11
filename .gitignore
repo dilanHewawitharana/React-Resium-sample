@@ -22,4 +22,6 @@ polyline/node_modules
 cesium-webpack-app/node_modules
 cesium-webpack-app/dist
 cesium-webpack-app/package-lock.json
-
+OSM_Buildings/node_modules
+OSM_Buildings/dist
+OSM_Buildings/package-lock.json
