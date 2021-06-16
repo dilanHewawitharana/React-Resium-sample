@@ -25,3 +25,5 @@ cesium-webpack-app/package-lock.json
 OSM_Buildings/node_modules
 OSM_Buildings/dist
 OSM_Buildings/package-lock.json
+Colorado_State_Capitol_Building/node_modules
+Colorado_State_Capitol_Building/package-lock.json
