@@ -11,12 +11,6 @@ const viewer = new Cesium.Viewer('cesiumContainer', {
 // Add Cesium OSM Buildings.
 const buildingsTileset = viewer.scene.primitives.add(Cesium.createOsmBuildings());
 
-// Fly the camera to Denver, Colorado at the given longitude, latitude, and height.
-viewer.camera.flyTo({
-  destination: Cesium.Cartesian3.fromDegrees(-104.9965, 39.74248, 4000),
-  duration: 8
-});
-
 // STEP 3 CODE
 async function addBuildingGeoJSON() {
   // Load the GeoJSON file from Cesium ion.
