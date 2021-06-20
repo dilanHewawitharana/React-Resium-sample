@@ -24,8 +24,8 @@ async function addBuildingGeoJSON() {
   for (const entity of dataSource.entities.values) {
     entity.polygon.classificationType = Cesium.ClassificationType.TERRAIN;
   }
-  // Move the camera so that the polygon is in view.
-  viewer.flyTo(dataSource);
+  // // Move the camera so that the polygon is in view.
+  // viewer.flyTo(dataSource);
 }
 addBuildingGeoJSON();
 
