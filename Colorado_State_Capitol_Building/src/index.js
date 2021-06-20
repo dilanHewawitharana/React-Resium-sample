@@ -11,7 +11,6 @@ const viewer = new Cesium.Viewer('cesiumContainer', {
 // Add Cesium OSM Buildings.
 const buildingsTileset = viewer.scene.primitives.add(Cesium.createOsmBuildings());
 
-// STEP 3 CODE
 async function addBuildingGeoJSON() {
   // Load the GeoJSON file from Cesium ion.
   const geoJSONURL = await Cesium.IonResource.fromAssetId(482990);
@@ -24,12 +23,9 @@ async function addBuildingGeoJSON() {
   for (const entity of dataSource.entities.values) {
     entity.polygon.classificationType = Cesium.ClassificationType.TERRAIN;
   }
-  // // Move the camera so that the polygon is in view.
-  // viewer.flyTo(dataSource);
 }
 addBuildingGeoJSON();
 
-// STEP 4 CODE
 // Hide individual buildings in this area using 3D Tiles Styling language.
 buildingsTileset.style = new Cesium.Cesium3DTileStyle({
   // Create a style rule to control each building's "show" property.
@@ -52,7 +48,6 @@ buildingsTileset.style = new Cesium.Cesium3DTileStyle({
   color: "Boolean(${feature['cesium#color']}) ? color(${feature['cesium#color']}) : color('#ffffff')"
 });
 
-// STEP 6 CODE
 // Add the 3D Tileset you created from your Cesium ion account.
 const newBuildingTileset = viewer.scene.primitives.add(
   new Cesium.Cesium3DTileset({
@@ -62,7 +57,6 @@ const newBuildingTileset = viewer.scene.primitives.add(
 // Move the camera to the new building.
 viewer.flyTo(newBuildingTileset);
 
-// STEP 7 CODE
 // Toggle the tileset's show property when the button is clicked.
 document.querySelector('#toggle-building').onclick = function() {
   newBuildingTileset.show = !newBuildingTileset.show;
