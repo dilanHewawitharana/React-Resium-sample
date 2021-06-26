@@ -27,3 +27,6 @@ OSM_Buildings/dist
 OSM_Buildings/package-lock.json
 Colorado_State_Capitol_Building/node_modules
 Colorado_State_Capitol_Building/package-lock.json
+cesium_entity/node_modules
+cesium_entity/dist
+cesium_entity/package-lock.json
