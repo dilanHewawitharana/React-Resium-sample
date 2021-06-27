@@ -30,3 +30,6 @@ Colorado_State_Capitol_Building/package-lock.json
 cesium_entity/node_modules
 cesium_entity/dist
 cesium_entity/package-lock.json
+3D-tiles-terrain-classification/node_modules
+3D-tiles-terrain-classification/dist
+3D-tiles-terrain-classification/package-lock.json
